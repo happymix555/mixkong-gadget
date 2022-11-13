@@ -129,6 +129,9 @@ a {
 .img {
     max-width: 150px;
     max-height: 150px;
+    /* padding-bottom: 10px; */
+    border-radius: 5px;
+    border: 3px solid #3882f6;
     /* flex: 0 0 auto; */
 }
 
@@ -163,7 +166,7 @@ a {
 }
 
 .bottom-padding {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .information-header-text {
@@ -172,6 +175,14 @@ a {
     font-weight: 900;
     margin: 0;
 }
+
+.information-text {
+    font-size: 18px;
+    color: #1f2937;
+    margin: 0;
+}
+
+
 /* .top-product {
     flex: 0 1 200px;
     display: flex;
