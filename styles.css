@@ -35,6 +35,7 @@ a {
     display: flex;
     flex: 0 0 900px;
     align-items: center;
+    justify-content: center;
 }
 
 .blue-background {
@@ -182,6 +183,34 @@ a {
     margin: 0;
 }
 
+.container3 {
+    flex: 0 0 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+}
+
+.quote-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+    font-style: italic;
+}
+
+.quote-authur {
+    align-self: flex-end;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
 /* .top-product {
     flex: 0 1 200px;
