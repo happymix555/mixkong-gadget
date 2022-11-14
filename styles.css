@@ -260,6 +260,14 @@ a {
     color: rgb(0, 0, 0);
     border: white;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* .top-product {
     flex: 0 1 200px;
     display: flex;
